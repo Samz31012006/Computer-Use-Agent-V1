@@ -1,0 +1,37 @@
+{
+ "model": "Qwen3-0.6B-Q4_K_M.gguf",
+ "size_mb": 462,
+ "when": "2026-09-22 00:15:14",
+ "variants": {
+  "dynamic": {
+   "valid_pct": 100,
+   "first_action_pct": 69,
+   "actions_pct": 65,
+   "strict_pct": 42,
+   "latency_ms_median": 1769,
+   "latency_ms_mean": 2066,
+   "latency_ms_p95": 3327,
+   "tok_s": 20.9,
+   "prompt_tokens": 461,
+   "completion_tokens": 19,
+   "server_rss_mb": 729,
+   "load_ms": 1367,
+   "n": 26
+  },
+  "static": {
+   "valid_pct": 100,
+   "first_action_pct": 62,
+   "actions_pct": 54,
+   "strict_pct": 38,
+   "latency_ms_median": 1989,
+   "latency_ms_mean": 1997,
+   "latency_ms_p95": 2938,
+   "tok_s": 20.5,
+   "prompt_tokens": 507,
+   "completion_tokens": 19,
+   "server_rss_mb": 729,
+   "load_ms": 1367,
+   "n": 26
+  }
+ }
+}

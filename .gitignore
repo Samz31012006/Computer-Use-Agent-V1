@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local machine config (see config.json.example for the template)
+config.json
+
+# Model weights and the llama.cpp runtime -- large binaries, fetched separately (see README "Models")
+models/*.gguf
+models/llama/
+models/vosk-model*/
+
+# Runtime state: auth secrets, TLS private key, cached Start-menu index, dev screenshots
+.cache/
+
+# Logs -- includes voice_debug/, which can contain recorded audio of spoken commands. Never publish this.
+logs/
+
+# Session/editor/tooling state
+.claude/
+.vscode/
+*.egg-info/
+
+# OS cruft
+.DS_Store
+Thumbs.db

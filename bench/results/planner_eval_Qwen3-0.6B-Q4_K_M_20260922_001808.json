@@ -1,0 +1,22 @@
+{
+ "model": "Qwen3-0.6B-Q4_K_M.gguf",
+ "size_mb": 462,
+ "when": "2026-09-22 00:17:20",
+ "variants": {
+  "dynamic": {
+   "valid_pct": 100,
+   "first_action_pct": 65,
+   "actions_pct": 65,
+   "strict_pct": 31,
+   "latency_ms_median": 1599,
+   "latency_ms_mean": 1826,
+   "latency_ms_p95": 2500,
+   "tok_s": 23.9,
+   "prompt_tokens": 469,
+   "completion_tokens": 20,
+   "server_rss_mb": 848,
+   "load_ms": 1526,
+   "n": 26
+  }
+ }
+}

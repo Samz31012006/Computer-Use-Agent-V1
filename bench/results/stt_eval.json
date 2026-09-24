@@ -1,0 +1,245 @@
+{
+ "results": [
+  {
+   "name": "vosk_two_pass (current)",
+   "rows": [
+    {
+     "case": "open_chrome",
+     "truth": "Open Chrome.",
+     "raw": "open crow",
+     "final": "open chrome",
+     "similarity": 1.0,
+     "latency_ms": 7616
+    },
+    {
+     "case": "open_youtube",
+     "truth": "Open YouTube.",
+     "raw": "open you tube",
+     "final": "open youtube",
+     "similarity": 1.0,
+     "latency_ms": 5633
+    },
+    {
+     "case": "youtube_search",
+     "truth": "Open YouTube and search for SpaceX.",
+     "raw": "open you tube and search for space x",
+     "final": "open youtube and search for space x",
+     "similarity": 0.986,
+     "latency_ms": 7456
+    },
+    {
+     "case": "research_spacex",
+     "truth": "I want to research the latest SpaceX launch.",
+     "raw": "i want to research the latest space x launch",
+     "final": "i want to research the latest spacex launch",
+     "similarity": 1.0,
+     "latency_ms": 7310
+    },
+    {
+     "case": "click_first_channel",
+     "truth": "Click the first channel.",
+     "raw": "click the first channel",
+     "final": "click the first channel",
+     "similarity": 1.0,
+     "latency_ms": 5424
+    },
+    {
+     "case": "click_like",
+     "truth": "Click the Like button.",
+     "raw": "click the like button",
+     "final": "click the like button",
+     "similarity": 1.0,
+     "latency_ms": 4462
+    },
+    {
+     "case": "click_search_icon",
+     "truth": "Click the search icon.",
+     "raw": "click the search icon",
+     "final": "click the search icon",
+     "similarity": 1.0,
+     "latency_ms": 5803
+    },
+    {
+     "case": "conversational",
+     "truth": "Hey, can you help me find that document I was working on yesterday?",
+     "raw": "hey can you help me find that document i was working on yesterday",
+     "final": "hey can you help me find that document i was working on yesterday",
+     "similarity": 1.0,
+     "latency_ms": 8082
+    }
+   ],
+   "rss_delta_mb": 465
+  },
+  {
+   "name": "faster-whisper-tiny.en",
+   "rows": [
+    {
+     "case": "open_chrome",
+     "truth": "Open Chrome.",
+     "raw": "Open Curl.",
+     "final": "Open Curl.",
+     "similarity": 0.7,
+     "latency_ms": 719
+    },
+    {
+     "case": "open_youtube",
+     "truth": "Open YouTube.",
+     "raw": "Open YouTube.",
+     "final": "Open YouTube.",
+     "similarity": 1.0,
+     "latency_ms": 699
+    },
+    {
+     "case": "youtube_search",
+     "truth": "Open YouTube and search for SpaceX.",
+     "raw": "Open YouTube and search for Space X.",
+     "final": "Open YouTube and search for Space X.",
+     "similarity": 0.986,
+     "latency_ms": 664
+    },
+    {
+     "case": "research_spacex",
+     "truth": "I want to research the latest SpaceX launch.",
+     "raw": "I want to research the latest SpaceX launch.",
+     "final": "I want to research the latest SpaceX launch.",
+     "similarity": 1.0,
+     "latency_ms": 596
+    },
+    {
+     "case": "click_first_channel",
+     "truth": "Click the first channel.",
+     "raw": "Click the first channel.",
+     "final": "Click the first channel.",
+     "similarity": 1.0,
+     "latency_ms": 543
+    },
+    {
+     "case": "click_like",
+     "truth": "Click the Like button.",
+     "raw": "Click the like button.",
+     "final": "Click the like button.",
+     "similarity": 1.0,
+     "latency_ms": 560
+    },
+    {
+     "case": "click_search_icon",
+     "truth": "Click the search icon.",
+     "raw": "Click the search icon.",
+     "final": "Click the search icon.",
+     "similarity": 1.0,
+     "latency_ms": 562
+    },
+    {
+     "case": "conversational",
+     "truth": "Hey, can you help me find that document I was working on yesterday?",
+     "raw": "Hey, can you help me find that document I was working on yesterday?",
+     "final": "Hey, can you help me find that document I was working on yesterday?",
+     "similarity": 1.0,
+     "latency_ms": 651
+    }
+   ],
+   "rss_delta_mb": 110,
+   "load_ms": 170070
+  },
+  {
+   "name": "faster-whisper-base.en",
+   "rows": [
+    {
+     "case": "open_chrome",
+     "truth": "Open Chrome.",
+     "raw": "Open Chrome.",
+     "final": "Open Chrome.",
+     "similarity": 1.0,
+     "latency_ms": 1162
+    },
+    {
+     "case": "open_youtube",
+     "truth": "Open YouTube.",
+     "raw": "Open YouTube.",
+     "final": "Open YouTube.",
+     "similarity": 1.0,
+     "latency_ms": 1188
+    },
+    {
+     "case": "youtube_search",
+     "truth": "Open YouTube and search for SpaceX.",
+     "raw": "Open YouTube and search for SpaceX.",
+     "final": "Open YouTube and search for SpaceX.",
+     "similarity": 1.0,
+     "latency_ms": 1206
+    },
+    {
+     "case": "research_spacex",
+     "truth": "I want to research the latest SpaceX launch.",
+     "raw": "I want to research the latest SpaceX launch.",
+     "final": "I want to research the latest SpaceX launch.",
+     "similarity": 1.0,
+     "latency_ms": 1459
+    },
+    {
+     "case": "click_first_channel",
+     "truth": "Click the first channel.",
+     "raw": "Click the first channel.",
+     "final": "Click the first channel.",
+     "similarity": 1.0,
+     "latency_ms": 1305
+    },
+    {
+     "case": "click_like",
+     "truth": "Click the Like button.",
+     "raw": "Click the like button.",
+     "final": "Click the like button.",
+     "similarity": 1.0,
+     "latency_ms": 1122
+    },
+    {
+     "case": "click_search_icon",
+     "truth": "Click the search icon.",
+     "raw": "Click the search icon.",
+     "final": "Click the search icon.",
+     "similarity": 1.0,
+     "latency_ms": 1404
+    },
+    {
+     "case": "conversational",
+     "truth": "Hey, can you help me find that document I was working on yesterday?",
+     "raw": "Hey, can you help me find that document I was working on yesterday?",
+     "final": "Hey, can you help me find that document I was working on yesterday?",
+     "similarity": 1.0,
+     "latency_ms": 2501
+    }
+   ],
+   "rss_delta_mb": 131,
+   "load_ms": 169418
+  }
+ ],
+ "summaries": [
+  {
+   "name": "vosk_two_pass (current)",
+   "avg_similarity": 0.998,
+   "min_similarity": 0.986,
+   "avg_latency_ms": 6473,
+   "max_latency_ms": 8082,
+   "rss_delta_mb": 465,
+   "load_ms": null
+  },
+  {
+   "name": "faster-whisper-tiny.en",
+   "avg_similarity": 0.961,
+   "min_similarity": 0.7,
+   "avg_latency_ms": 624,
+   "max_latency_ms": 719,
+   "rss_delta_mb": 110,
+   "load_ms": 170070
+  },
+  {
+   "name": "faster-whisper-base.en",
+   "avg_similarity": 1.0,
+   "min_similarity": 1.0,
+   "avg_latency_ms": 1418,
+   "max_latency_ms": 2501,
+   "rss_delta_mb": 131,
+   "load_ms": 169418
+  }
+ ]
+}

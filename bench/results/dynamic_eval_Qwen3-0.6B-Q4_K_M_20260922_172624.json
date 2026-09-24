@@ -1,0 +1,201 @@
+{
+ "model": "Qwen3-0.6B-Q4_K_M.gguf",
+ "size_mb": 462,
+ "when": "2026-09-22 17:26:24",
+ "valid_pct": 100,
+ "first_action_pct": 69,
+ "actions_pct": 39,
+ "strict_pct": 28,
+ "latency_ms_median": 1356,
+ "latency_ms_mean": 1411,
+ "tok_s": 33.1,
+ "avg_tools_sent": 5.4,
+ "server_rss_mb": 1196,
+ "agent_rss_mb": 39,
+ "load_ms": 2977,
+ "sys_avail_mb": 772,
+ "n": 36,
+ "n_failures": 26,
+ "failures": [
+  {
+   "cmd": "Take a screenshot",
+   "category": "simple",
+   "got": "[('open_app', {'name': 'code'})]"
+  },
+  {
+   "cmd": "Open Notepad and type hello",
+   "category": "multi_step",
+   "got": "[('open_app', {'name': 'notepad'})]"
+  },
+  {
+   "cmd": "Open Chrome and search for SpaceX",
+   "category": "multi_step",
+   "got": "[('open_app', {'name': 'chrome'})]"
+  },
+  {
+   "cmd": "Open notepad, type hello, and save it",
+   "category": "multi_step",
+   "got": "[('open_app', {'name': 'notepad'})]"
+  },
+  {
+   "cmd": "Open Downloads and find the latest PDF",
+   "category": "multi_step",
+   "got": "[('open_folder', {'folder': 'downloads'})]"
+  },
+  {
+   "cmd": "Make a python file and write hello world",
+   "category": "multi_step",
+   "got": "[('create_file', {'path': 'python_file.txt', 'content': '# Hello World\\n'})]"
+  },
+  {
+   "cmd": "Type hello on Notepad",
+   "category": "natural_language",
+   "got": "[('open_app', {'name': 'notepad'})]"
+  },
+  {
+   "cmd": "I want to research the latest SpaceX launch. Open Chrome and search for it.",
+   "category": "natural_language",
+   "got": "[('web_search', {'query': 'spaceX', 'browser': 'chrome', 'engine': 'google'})]"
+  },
+  {
+   "cmd": "Can you get Chrome running and look up the NVIDIA stock price",
+   "category": "natural_language",
+   "got": "[('open_app', {'name': 'chrome'})]"
+  },
+  {
+   "cmd": "I need to jot down a quick note",
+   "category": "natural_language",
+   "got": "[('type_text', {'text': 'I need to jot down a quick note'})]"
+  },
+  {
+   "cmd": "Type hello",
+   "category": "omitted_context",
+   "got": "[('open_app', {'name': 'code'})]"
+  },
+  {
+   "cmd": "Search for SpaceX",
+   "category": "omitted_context",
+   "got": "[('web_search', {'query': 'spacecraft', 'browser': 'chrome', 'engine': 'google'})]"
+  },
+  {
+   "cmd": "Save it",
+   "category": "omitted_context",
+   "got": "[('open_app', {'name': 'notes.txt'})]"
+  },
+  {
+   "cmd": "Open youtbue",
+   "category": "spelling",
+   "got": "[('open_app', {'name': 'youtbue'})]"
+  },
+  {
+   "cmd": "Open chrmoe",
+   "category": "spelling",
+   "got": "[('open_app', {'name': 'chrmoe'})]"
+  },
+  {
+   "cmd": "open notepaad and type hi",
+   "category": "spelling",
+   "got": "[('open_app', {'name': 'notepad'})]"
+  },
+  {
+   "cmd": "search on gogle for weather",
+   "category": "spelling",
+   "got": "[('open_app', {'name': 'chrome'})]"
+  },
+  {
+   "cmd": "Find the latest PDF in Downloads and open it",
+   "category": "multi_tool",
+   "got": "[('find_file', {'extension': 'pdf', 'modified': 'today'})]"
+  },
+  {
+   "cmd": "Create a text file called notes.txt and open it in notepad",
+   "category": "multi_tool",
+   "got": "[('create_file', {'path': 'documents/notes.txt', 'content': 'create a text file called notes.txt and open it in notepad'})]"
+  },
+  {
+   "cmd": "Open notepad, maximize it, and type hello",
+   "category": "multi_tool",
+   "got": "[('open_app', {'name': 'notepad'}), ('type_text', {'text': 'hello', 'app': 'notepad'})]"
+  },
+  {
+   "cmd": "Copy report.pdf from downloads to documents",
+   "category": "multi_tool",
+   "got": "[('open_folder', {'folder': 'downloads'})]"
+  },
+  {
+   "cmd": "Open YouTube",
+   "category": "browser_navigation",
+   "got": "[('open_app', {'name': 'chrome'})]"
+  },
+  {
+   "cmd": "Go to YouTube and search for latest SpaceX launch",
+   "category": "browser_navigation",
+   "got": "[('web_search', {'query': 'latest space launch', 'browser': 'chrome', 'engine': 'google'})]"
+  },
+  {
+   "cmd": "Search Wikipedia for artificial intelligence",
+   "category": "browser_navigation",
+   "got": "[('open_app', {'name': 'chrome'})]"
+  },
+  {
+   "cmd": "Open github.com",
+   "category": "browser_navigation",
+   "got": "[('open_app', {'name': 'github.com'})]"
+  },
+  {
+   "cmd": "Open Chrome, search for NVIDIA, and open the official website",
+   "category": "browser_navigation",
+   "got": "[('open_app', {'name': 'chrome'}), ('web_search', {'query': 'nvidia', 'browser': 'chrome', 'engine': 'google'})]"
+  }
+ ],
+ "by_category": {
+  "browser_navigation": {
+   "n": 5,
+   "strict_pct": 0,
+   "actions_pct": 20,
+   "valid_pct": 100
+  },
+  "multi_step": {
+   "n": 5,
+   "strict_pct": 0,
+   "actions_pct": 0,
+   "valid_pct": 100
+  },
+  "multi_tool": {
+   "n": 4,
+   "strict_pct": 0,
+   "actions_pct": 0,
+   "valid_pct": 100
+  },
+  "natural_language": {
+   "n": 5,
+   "strict_pct": 20,
+   "actions_pct": 20,
+   "valid_pct": 100
+  },
+  "omitted_context": {
+   "n": 4,
+   "strict_pct": 25,
+   "actions_pct": 50,
+   "valid_pct": 100
+  },
+  "recovery": {
+   "n": 4,
+   "strict_pct": 100,
+   "actions_pct": 100,
+   "valid_pct": 100
+  },
+  "simple": {
+   "n": 5,
+   "strict_pct": 80,
+   "actions_pct": 80,
+   "valid_pct": 100
+  },
+  "spelling": {
+   "n": 4,
+   "strict_pct": 0,
+   "actions_pct": 50,
+   "valid_pct": 100
+  }
+ }
+}

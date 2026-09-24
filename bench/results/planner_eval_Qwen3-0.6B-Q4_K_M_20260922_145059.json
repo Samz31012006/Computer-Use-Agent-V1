@@ -1,0 +1,100 @@
+{
+ "model": "Qwen3-0.6B-Q4_K_M.gguf",
+ "size_mb": 462,
+ "when": "2026-09-22 14:47:33",
+ "categories_available": [
+  "app_control",
+  "browser",
+  "file_ops",
+  "folder_ops",
+  "keyboard",
+  "multi_step",
+  "scroll",
+  "settings",
+  "ui_interaction",
+  "window_control"
+ ],
+ "variants": {
+  "dynamic": {
+   "valid_pct": 98,
+   "first_action_pct": 66,
+   "actions_pct": 57,
+   "strict_pct": 46,
+   "avg_extra_steps": 0.03,
+   "latency_ms_median": 1572,
+   "latency_ms_mean": 1775,
+   "latency_ms_p95": 3225,
+   "tok_s": 24.6,
+   "prompt_tokens_avg": 286,
+   "completion_tokens_avg": 21,
+   "avg_tools_sent": 5.9,
+   "server_rss_mb": 1818,
+   "agent_rss_mb": 38,
+   "load_ms": 2108,
+   "sys_avail_mb": 387,
+   "n": 116,
+   "by_category": {
+    "app_control": {
+     "n": 15,
+     "strict_pct": 47,
+     "actions_pct": 67,
+     "valid_pct": 100
+    },
+    "browser": {
+     "n": 14,
+     "strict_pct": 43,
+     "actions_pct": 71,
+     "valid_pct": 100
+    },
+    "file_ops": {
+     "n": 15,
+     "strict_pct": 73,
+     "actions_pct": 80,
+     "valid_pct": 100
+    },
+    "folder_ops": {
+     "n": 10,
+     "strict_pct": 80,
+     "actions_pct": 90,
+     "valid_pct": 100
+    },
+    "keyboard": {
+     "n": 12,
+     "strict_pct": 25,
+     "actions_pct": 25,
+     "valid_pct": 100
+    },
+    "multi_step": {
+     "n": 18,
+     "strict_pct": 11,
+     "actions_pct": 22,
+     "valid_pct": 100
+    },
+    "scroll": {
+     "n": 4,
+     "strict_pct": 25,
+     "actions_pct": 50,
+     "valid_pct": 100
+    },
+    "settings": {
+     "n": 6,
+     "strict_pct": 67,
+     "actions_pct": 67,
+     "valid_pct": 83
+    },
+    "ui_interaction": {
+     "n": 10,
+     "strict_pct": 70,
+     "actions_pct": 70,
+     "valid_pct": 100
+    },
+    "window_control": {
+     "n": 12,
+     "strict_pct": 33,
+     "actions_pct": 42,
+     "valid_pct": 92
+    }
+   }
+  }
+ }
+}

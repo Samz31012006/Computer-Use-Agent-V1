@@ -1,0 +1,66 @@
+{
+ "when": "2026-09-21 22:02:52",
+ "reps": 2,
+ "system": {
+  "ram_total_mb": 7786,
+  "ram_avail_at_start_mb": 1909
+ },
+ "router_coverage": {
+  "in_scope_n": 48,
+  "in_scope_hit": 48,
+  "in_scope_exact": 48,
+  "out_of_scope_n": 16,
+  "out_of_scope_false_plans": [],
+  "coverage_on_mixed_corpus": 0.75,
+  "mean_plan_ms": 0.128,
+  "mismatches": []
+ },
+ "tasks": [
+  {
+   "task": "open_app",
+   "category": "open application",
+   "n": 2,
+   "success_rate": 1.0,
+   "recovery_rate": null,
+   "total_ms_median": 641,
+   "total_ms_max": 837,
+   "stage_ms_mean": {
+    "plan": 0,
+    "perceive": 10,
+    "select": 0,
+    "act": 127,
+    "settle": 513,
+    "engine": 640,
+    "verify": 1
+   },
+   "agent_cpu_mean_pct": 7.8,
+   "sys_cpu_peak_pct": 57.1,
+   "agent_rss_peak_mb": 37.7,
+   "sys_avail_min_mb": 1840.9,
+   "failures": []
+  },
+  {
+   "task": "type_text",
+   "category": "type text",
+   "n": 2,
+   "success_rate": 1.0,
+   "recovery_rate": null,
+   "total_ms_median": 1677,
+   "total_ms_max": 1778,
+   "stage_ms_mean": {
+    "plan": 0,
+    "perceive": 916,
+    "select": 2,
+    "act": 114,
+    "settle": 474,
+    "engine": 752,
+    "verify": 925
+   },
+   "agent_cpu_mean_pct": 29.4,
+   "sys_cpu_peak_pct": 98.1,
+   "agent_rss_peak_mb": 58.0,
+   "sys_avail_min_mb": 1640.3,
+   "failures": []
+  }
+ ]
+}

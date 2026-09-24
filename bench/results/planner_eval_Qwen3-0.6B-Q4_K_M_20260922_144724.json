@@ -1,0 +1,46 @@
+{
+ "model": "Qwen3-0.6B-Q4_K_M.gguf",
+ "size_mb": 462,
+ "when": "2026-09-22 14:47:11",
+ "categories_available": [
+  "app_control",
+  "browser",
+  "file_ops",
+  "folder_ops",
+  "keyboard",
+  "multi_step",
+  "scroll",
+  "settings",
+  "ui_interaction",
+  "window_control"
+ ],
+ "variants": {
+  "dynamic": {
+   "valid_pct": 100,
+   "first_action_pct": 80,
+   "actions_pct": 80,
+   "strict_pct": 40,
+   "avg_extra_steps": 0,
+   "latency_ms_median": 1668,
+   "latency_ms_mean": 2555,
+   "latency_ms_p95": 2473,
+   "tok_s": 27.7,
+   "prompt_tokens_avg": 275,
+   "completion_tokens_avg": 16,
+   "avg_tools_sent": 5.4,
+   "server_rss_mb": 932,
+   "agent_rss_mb": 39,
+   "load_ms": 3964,
+   "sys_avail_mb": 934,
+   "n": 5,
+   "by_category": {
+    "app_control": {
+     "n": 5,
+     "strict_pct": 40,
+     "actions_pct": 80,
+     "valid_pct": 100
+    }
+   }
+  }
+ }
+}

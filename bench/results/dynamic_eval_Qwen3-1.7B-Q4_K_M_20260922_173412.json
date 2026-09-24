@@ -1,0 +1,156 @@
+{
+ "model": "Qwen3-1.7B-Q4_K_M.gguf",
+ "size_mb": 1056,
+ "when": "2026-09-22 17:34:12",
+ "valid_pct": 100,
+ "first_action_pct": 58,
+ "actions_pct": 69,
+ "strict_pct": 53,
+ "latency_ms_median": 3294,
+ "latency_ms_mean": 3996,
+ "tok_s": 12.7,
+ "avg_tools_sent": 5.4,
+ "server_rss_mb": 2308,
+ "agent_rss_mb": 39,
+ "load_ms": 4526,
+ "sys_avail_mb": 794,
+ "n": 36,
+ "n_failures": 17,
+ "failures": [
+  {
+   "cmd": "Close Calculator",
+   "category": "simple",
+   "got": "[('open_app', {'name': 'notepad'})]"
+  },
+  {
+   "cmd": "Maximize Chrome",
+   "category": "simple",
+   "got": "[('open_app', {'name': 'chrome'})]"
+  },
+  {
+   "cmd": "Take a screenshot",
+   "category": "simple",
+   "got": "[('open_app', {'name': 'Paint'})]"
+  },
+  {
+   "cmd": "Open Chrome and search for SpaceX",
+   "category": "multi_step",
+   "got": "[('open_app', {'name': 'chrome'}), ('web_search', {'query': 'Windows', 'browser': 'chrome', 'engine': 'google'})]"
+  },
+  {
+   "cmd": "Open notepad, type hello, and save it",
+   "category": "multi_step",
+   "got": "[('open_app', {'name': 'notepad'}), ('type_text', {'text': 'hello', 'app': 'notepad'})]"
+  },
+  {
+   "cmd": "Open Downloads and find the latest PDF",
+   "category": "multi_step",
+   "got": "[('open_app', {'name': 'Explorer'})]"
+  },
+  {
+   "cmd": "Save it",
+   "category": "omitted_context",
+   "got": "[('open_app', {'name': 'notepad'})]"
+  },
+  {
+   "cmd": "Maximize it",
+   "category": "omitted_context",
+   "got": "[('open_app', {'name': 'chrome'})]"
+  },
+  {
+   "cmd": "Open youtbue",
+   "category": "spelling",
+   "got": "[('open_app', {'name': 'chrome'}), ('web_search', {'query': 'cats', 'browser': 'chrome', 'engine': 'google'})]"
+  },
+  {
+   "cmd": "open notepaad and type hi",
+   "category": "spelling",
+   "got": "[('open_app', {'name': 'notepad'}), ('type_text', {'text': 'hello', 'app': 'notepad'})]"
+  },
+  {
+   "cmd": "Find the latest PDF in Downloads and open it",
+   "category": "multi_tool",
+   "got": "[('open_app', {'name': 'notepad'})]"
+  },
+  {
+   "cmd": "Create a text file called notes.txt and open it in notepad",
+   "category": "multi_tool",
+   "got": "[('open_app', {'name': 'notepad'})]"
+  },
+  {
+   "cmd": "Copy report.pdf from downloads to documents",
+   "category": "multi_tool",
+   "got": "[('open_app', {'name': 'notepad'})]"
+  },
+  {
+   "cmd": "Open YouTube",
+   "category": "browser_navigation",
+   "got": "[('open_app', {'name': 'chrome'}), ('web_search', {'query': 'cats', 'browser': 'chrome', 'engine': 'google'})]"
+  },
+  {
+   "cmd": "Go to YouTube and search for latest SpaceX launch",
+   "category": "browser_navigation",
+   "got": "[('open_app', {'name': 'chrome'}), ('web_search', {'query': 'Go to YouTube and search for latest SpaceX launch', 'browser': 'chrome', 'engine': 'google'})]"
+  },
+  {
+   "cmd": "Search Wikipedia for artificial intelligence",
+   "category": "browser_navigation",
+   "got": "[('open_app', {'name': 'chrome'}), ('web_search', {'query': 'Windows PC tasks', 'browser': 'chrome', 'engine': 'google'})]"
+  },
+  {
+   "cmd": "Open Chrome, search for NVIDIA, and open the official website",
+   "category": "browser_navigation",
+   "got": "[('open_app', {'name': 'chrome'}), ('web_search', {'query': 'NVIDIA', 'browser': 'chrome', 'engine': 'google'})]"
+  }
+ ],
+ "by_category": {
+  "browser_navigation": {
+   "n": 5,
+   "strict_pct": 20,
+   "actions_pct": 80,
+   "valid_pct": 100
+  },
+  "multi_step": {
+   "n": 5,
+   "strict_pct": 40,
+   "actions_pct": 60,
+   "valid_pct": 100
+  },
+  "multi_tool": {
+   "n": 4,
+   "strict_pct": 25,
+   "actions_pct": 25,
+   "valid_pct": 100
+  },
+  "natural_language": {
+   "n": 5,
+   "strict_pct": 100,
+   "actions_pct": 100,
+   "valid_pct": 100
+  },
+  "omitted_context": {
+   "n": 4,
+   "strict_pct": 50,
+   "actions_pct": 50,
+   "valid_pct": 100
+  },
+  "recovery": {
+   "n": 4,
+   "strict_pct": 100,
+   "actions_pct": 100,
+   "valid_pct": 100
+  },
+  "simple": {
+   "n": 5,
+   "strict_pct": 40,
+   "actions_pct": 40,
+   "valid_pct": 100
+  },
+  "spelling": {
+   "n": 4,
+   "strict_pct": 50,
+   "actions_pct": 100,
+   "valid_pct": 100
+  }
+ }
+}

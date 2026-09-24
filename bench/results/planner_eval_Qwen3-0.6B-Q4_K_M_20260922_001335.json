@@ -1,0 +1,52 @@
+{
+ "model": "Qwen3-0.6B-Q4_K_M.gguf",
+ "size_mb": 462,
+ "when": "2026-09-22 00:10:58",
+ "variants": {
+  "dynamic": {
+   "valid_pct": 92,
+   "first_action_pct": 58,
+   "actions_pct": 77,
+   "strict_pct": 38,
+   "latency_ms_median": 1759,
+   "latency_ms_mean": 1911,
+   "latency_ms_p95": 2702,
+   "tok_s": 23.2,
+   "prompt_tokens": 417,
+   "completion_tokens": 25,
+   "server_rss_mb": 845,
+   "load_ms": 1727,
+   "n": 26
+  },
+  "static": {
+   "valid_pct": 92,
+   "first_action_pct": 42,
+   "actions_pct": 69,
+   "strict_pct": 50,
+   "latency_ms_median": 2236,
+   "latency_ms_mean": 2099,
+   "latency_ms_p95": 2910,
+   "tok_s": 24.1,
+   "prompt_tokens": 460,
+   "completion_tokens": 31,
+   "server_rss_mb": 846,
+   "load_ms": 1727,
+   "n": 26
+  },
+  "zero": {
+   "valid_pct": 88,
+   "first_action_pct": 38,
+   "actions_pct": 31,
+   "strict_pct": 23,
+   "latency_ms_median": 1643,
+   "latency_ms_mean": 2050,
+   "latency_ms_p95": 2956,
+   "tok_s": 21.4,
+   "prompt_tokens": 362,
+   "completion_tokens": 28,
+   "server_rss_mb": 846,
+   "load_ms": 1727,
+   "n": 26
+  }
+ }
+}

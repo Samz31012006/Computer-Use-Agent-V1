@@ -1,0 +1,13 @@
+{
+  "planner_enabled": true,
+  "model_path": null,
+  "llama_server_path": null,
+  "ctx_size": 1536,
+  "threads": 4,
+  "idle_unload_s": 60,
+  "min_free_ram_mb": 600,
+  "max_steps": 12,
+  "max_replans": 1,
+  "max_retries": 1,
+  "task_timeout_s": 90
+}

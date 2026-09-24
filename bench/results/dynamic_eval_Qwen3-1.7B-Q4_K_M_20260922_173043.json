@@ -1,0 +1,251 @@
+{
+ "model": "Qwen3-1.7B-Q4_K_M.gguf",
+ "size_mb": 1056,
+ "when": "2026-09-22 17:30:43",
+ "valid_pct": 0,
+ "first_action_pct": 0,
+ "actions_pct": 0,
+ "strict_pct": 0,
+ "latency_ms_median": 1,
+ "latency_ms_mean": 1,
+ "tok_s": 0,
+ "avg_tools_sent": 5.4,
+ "server_rss_mb": 0,
+ "agent_rss_mb": 35,
+ "load_ms": 0,
+ "sys_avail_mb": 1510,
+ "n": 36,
+ "n_failures": 36,
+ "failures": [
+  {
+   "cmd": "Open Notepad",
+   "category": "simple",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Open Chrome",
+   "category": "simple",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Close Calculator",
+   "category": "simple",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Maximize Chrome",
+   "category": "simple",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Take a screenshot",
+   "category": "simple",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Open Notepad and type hello",
+   "category": "multi_step",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Open Chrome and search for SpaceX",
+   "category": "multi_step",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Open notepad, type hello, and save it",
+   "category": "multi_step",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Open Downloads and find the latest PDF",
+   "category": "multi_step",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Make a python file and write hello world",
+   "category": "multi_step",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Type hello on Notepad",
+   "category": "natural_language",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "I want to research the latest SpaceX launch. Open Chrome and search for it.",
+   "category": "natural_language",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Can you get Chrome running and look up the NVIDIA stock price",
+   "category": "natural_language",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "I need to jot down a quick note",
+   "category": "natural_language",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Pull up my downloads folder",
+   "category": "natural_language",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Type hello",
+   "category": "omitted_context",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Search for SpaceX",
+   "category": "omitted_context",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Save it",
+   "category": "omitted_context",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Maximize it",
+   "category": "omitted_context",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Open youtbue",
+   "category": "spelling",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Open chrmoe",
+   "category": "spelling",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "open notepaad and type hi",
+   "category": "spelling",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "search on gogle for weather",
+   "category": "spelling",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Find the latest PDF in Downloads and open it",
+   "category": "multi_tool",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Create a text file called notes.txt and open it in notepad",
+   "category": "multi_tool",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Open notepad, maximize it, and type hello",
+   "category": "multi_tool",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Copy report.pdf from downloads to documents",
+   "category": "multi_tool",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Open YouTube",
+   "category": "browser_navigation",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Go to YouTube and search for latest SpaceX launch",
+   "category": "browser_navigation",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Search Wikipedia for artificial intelligence",
+   "category": "browser_navigation",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Open github.com",
+   "category": "browser_navigation",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "Open Chrome, search for NVIDIA, and open the official website",
+   "category": "browser_navigation",
+   "got": "not enough free RAM (1510 MB free, need ~1712 MB)"
+  },
+  {
+   "cmd": "[replan] open notepad and type hello (failed: type_text, no window for notepad)",
+   "category": "recovery",
+   "got": "None"
+  },
+  {
+   "cmd": "[replan] open chrome and search for spacex (failed: web_search, no window for chrome)",
+   "category": "recovery",
+   "got": "None"
+  },
+  {
+   "cmd": "[replan] click the save button (failed: click_ui, element 'Save' not found)",
+   "category": "recovery",
+   "got": "None"
+  },
+  {
+   "cmd": "[replan] find and open the latest pdf in downloads (failed: find_file, no file matching in downloads)",
+   "category": "recovery",
+   "got": "None"
+  }
+ ],
+ "by_category": {
+  "browser_navigation": {
+   "n": 5,
+   "strict_pct": 0,
+   "actions_pct": 0,
+   "valid_pct": 0
+  },
+  "multi_step": {
+   "n": 5,
+   "strict_pct": 0,
+   "actions_pct": 0,
+   "valid_pct": 0
+  },
+  "multi_tool": {
+   "n": 4,
+   "strict_pct": 0,
+   "actions_pct": 0,
+   "valid_pct": 0
+  },
+  "natural_language": {
+   "n": 5,
+   "strict_pct": 0,
+   "actions_pct": 0,
+   "valid_pct": 0
+  },
+  "omitted_context": {
+   "n": 4,
+   "strict_pct": 0,
+   "actions_pct": 0,
+   "valid_pct": 0
+  },
+  "recovery": {
+   "n": 4,
+   "strict_pct": 0,
+   "actions_pct": 0,
+   "valid_pct": 0
+  },
+  "simple": {
+   "n": 5,
+   "strict_pct": 0,
+   "actions_pct": 0,
+   "valid_pct": 0
+  },
+  "spelling": {
+   "n": 4,
+   "strict_pct": 0,
+   "actions_pct": 0,
+   "valid_pct": 0
+  }
+ }
+}
