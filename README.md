@@ -4,11 +4,16 @@ Buddy takes typed or spoken commands and actually drives your desktop — openin
 text, searching the web, finding files — running **entirely on-device**, on ordinary laptop hardware, with no
 cloud calls of any kind.
 
+**Control it from three places, all talking to the same running agent:** the desktop app, a typed/voice
+command in a terminal, or **your phone's browser** — point it at your laptop's local address and it's a full
+voice+text remote control, no app install, no cloud relay, just your phone and your laptop on the same
+network. See [Access from your phone](#access-from-your-phone) below.
+
 ```
 "open chrome and search for the latest spacex launch"
 "bluetooth settings"
 "click the first video"
-(spoken) "lock the pc"
+(spoken, from your phone) "lock the pc"
 ```
 
 ## Why this exists
